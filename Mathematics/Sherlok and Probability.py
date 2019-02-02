@@ -16,8 +16,6 @@ def solve(n,k,s):
         
 
     if prob==0: 
-        # print(Fraction(0,1))
-        # return str(Fraction(0,len(combos)))
         return str(0)+'/'+str(1) 
     # elif len(prob)==1: 
     #     # print(Fraction(0,1))
