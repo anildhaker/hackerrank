@@ -13,13 +13,7 @@ def solve(n,k,s):
     for i in range(n):
         if s[i]=='1':
             prob += s.count('1',max(0,i-k),min(n,i+k+1))
-        # S.count('1'
-        # for j in range(1,n+1):
-        #     combos.append((i,j))
-        #     if abs(i-j)<=k: 
-        #         if s[i-1]=='1' and s[j-1]=='1':
-        #             prob.append((i,j))
-    # print(len(combos))
+        
 
     if prob==0: 
         # print(Fraction(0,1))
