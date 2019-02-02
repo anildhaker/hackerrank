@@ -24,9 +24,6 @@ def print_singly_linked_list(node, sep, fptr):
         if node:
             fptr.write(sep)
 
-# Complete the insertNodeAtTail function below.
-
-
 def insertNodeAtTail(head, data):
     print(head)
     print(data)
