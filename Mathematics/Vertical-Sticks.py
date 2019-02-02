@@ -3,7 +3,6 @@
 import os
 import sys
 
-# Complete the solve function below.
 def solve(y,n1):
     y=sorted(y)
     v = 0
