@@ -7,7 +7,7 @@ def isPalindrome(x):
 def maxPal(n):
     num = []
     for i in range(999,99,-1):
-        for j in range(999,99,-1):
+        for j in range(100,1000,):
             if (isPalindrome(i*j) and (i*j < n)):
                 num.append(i*j)
     return max(num)
